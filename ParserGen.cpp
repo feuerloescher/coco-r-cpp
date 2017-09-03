@@ -398,7 +398,7 @@ void ParserGen::WriteParser () {
 	symSet->Add(tab->allSyncSets);
 
 	fram = g.OpenFrame(L"Parser.frame");
-	gen = g.OpenGen(L"Parser.h");
+	gen = g.OpenGen(L"Parser.hpp");
 
 	Symbol *sym;
 	for (int i=0; i<tab->terminals->Count; i++) {

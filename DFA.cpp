@@ -749,7 +749,7 @@ void DFA::WriteStartTab() {
 void DFA::WriteScanner() {
 	Generator g = Generator(tab, errors);
 	fram = g.OpenFrame(L"Scanner.frame");
-	gen = g.OpenGen(L"Scanner.h");
+	gen = g.OpenGen(L"Scanner.hpp");
 	if (dirtyDFA) MakeDeterministic();
 
 	// Header

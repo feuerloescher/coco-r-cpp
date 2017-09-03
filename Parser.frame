@@ -27,7 +27,7 @@ Coco/R itself) does not fall under the GNU General Public License.
 -------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------------
-Parser.h Specification
+Parser.hpp Specification
 -----------------------------------------------------------------------*/
 
 -->begin
@@ -37,7 +37,7 @@ Parser.h Specification
 
 -->headerdef
 
-#include "Scanner.h"
+#include "Scanner.hpp"
 
 -->namespace_open
 
@@ -99,8 +99,8 @@ Parser.cpp Specification
 -->begin
 
 #include <wchar.h>
-#include "Parser.h"
-#include "Scanner.h"
+#include "Parser.hpp"
+#include "Scanner.hpp"
 
 
 -->namespace_open

@@ -27,7 +27,7 @@ Coco/R itself) does not fall under the GNU General Public License.
 -----------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------------
-Scanner.h Specification
+Scanner.hpp Specification
 -----------------------------------------------------------------------*/
 
 -->begin
@@ -300,7 +300,7 @@ Scanner.cpp Specification
 
 #include <memory.h>
 #include <string.h>
-#include "Scanner.h"
+#include "Scanner.hpp"
 
 -->namespace_open
 
